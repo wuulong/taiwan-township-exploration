@@ -11,13 +11,13 @@
 *   **架構前行的精神**：探討 368 鄉鎮框架的長期價值。
 
 ### [02_TownshipTaxonomy.md] 鄉鎮的樣態與分類邏輯
-*   **鄉鎮類型分類**：解析鬼雷小鎮、衛星城鎮、原鄉與都會區。
-*   **Meta Data 與 Tagging 實作**：如何將分類邏輯寫入 `walkgis.db` 的 `meta_data` 欄位。
-*   **動態數據引用**：使用 SQL 語法進行鄉鎮特徵的自動化篩選與列表。
+*   **分類法辭典 (Taxonomy Dictionary)**：解析核心樣態（都會核心、科技核心、邊陲轉型等）。
+*   **通用協定實作**：如何將 `taxonomy` 與 `tags` 寫入 `walkgis.db` 的 `meta_data`。
+*   **引證式撰寫實踐**：在書本中直接引用 W 系統 POI 甜肉內容的技術方法。
 
 ### [03_SystematicResearch.md] AI Agent 驅動的數據處理工程
 *   **Antigravity Skill 的應用**：手動探索與 Agent 自動化加厚的協作模式。
-*   **大規模數據的算力管理**：如何高效處理 390 個行政單元的厚化進程。
+*   **資料預熱與算力管理**：如何高效處理 390 個行政單元（22 縣市 + 368 鄉鎮）的厚化進程。
 
 ### [04_NationalPlanning.md] 國土規劃視角下的鄉鎮機能
 *   **機能演進與解讀邏輯**：從產業與規劃維度賦予 POI 深層意義。
@@ -26,9 +26,9 @@
 
 ## 第二部分：數位實踐與地圖導覽 (Digital & Map)
 
-### [05_WalkGIS_Integration.md] WalkGIS 鄉鎮導航層實務
-*   **368 鄉鎮圖層的維護**：狀態管理系統 (Framework -> Content -> Mapping -> Verify)。
-*   **SQL 指標報表製作**：動態生成全台富化進度報表的方法。
+### [05_WalkGIS_Integration.md] W 系統：動態數據中心實務
+*   **368 鄉鎮圖層的維護**：狀態管理系統 (Framework -> Data Priming -> Content -> Mapping -> Verify)。
+*   **SQL 專家視圖 (Named Views)**：在地圖中動態生成分析選單的方法。
 
 ### [06_Skill_Empowerment.md] 讀者專屬的 AI 助理 Skill 指導
 *   **Skill 的安裝與配置**：如何讓你的 AI 具備「鄉鎮探索大腦」。
@@ -38,11 +38,11 @@
 
 ## 第三部分：探勘實踐錄 (Case Studies)
 
-### [07_Practice_Hsinchu.md] 新竹市：首個深度加厚試點解構
+### [07_Practice_Hsinchu.md] 新竹市 POC：三位一體架構的核心對齊範本
 ### [08_Practice_Tainan.md] 臺南市：文史核心區的批量厚化實驗
 
 ---
 
 ## 附錄 (Appendices)
 *   **SQL 工具箱**：常用於鄉鎮探索與統計的 SQL 命令集。
-*   **Tag 清單標準定義**：全台通用的鄉鎮特徵標籤手冊。
+*   **分類分類與標籤辭典**：全台通用的 `taxonomy_dictionary.md` 定義。

@@ -1,0 +1,57 @@
+{
+    "protocol_version": "1.0",
+    "project": "Taiwan Township Exploration",
+    "taxonomy_schema": {
+        "categories": [
+            {
+                "id": "edge_town",
+                "name": "邊陲轉型",
+                "description": "位於行政或地理邊緣，正面臨人口結構改變或特定產業轉型的區域。"
+            },
+            {
+                "id": "tech_core",
+                "name": "科技核心",
+                "description": "以高科技產業為中心，具備高所得、高教育程度人口及強烈機能需求的區域。"
+            },
+            {
+                "id": "urban_core",
+                "name": "都會核心",
+                "description": "行政與經濟中心，具備極高密度的 POI 與市場活動。"
+            },
+            {
+                "id": "agri_hub",
+                "name": "農業轉運",
+                "description": "傳統農產集散地，保存有大量傳統市場與常民生活樣貌。"
+            },
+            {
+                "id": "indigenous_vibe",
+                "name": "山海原鄉",
+                "description": "原住民族行政區，具備獨特的自然文化脈絡與非漢文化生活邏輯。"
+            }
+        ],
+        "tags": {
+            "economy": [
+                "agri",
+                "tech",
+                "indus",
+                "tourism"
+            ],
+            "terrain": [
+                "basin",
+                "delta",
+                "terrace",
+                "coastal"
+            ],
+            "culture": [
+                "temple_cluster",
+                "colonial_heritage",
+                "market_life"
+            ]
+        }
+    },
+    "database_mapping": {
+        "table": "walking_map_features",
+        "meta_field": "meta_data",
+        "json_path": "$.taxonomy"
+    }
+}
